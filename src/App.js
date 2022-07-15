@@ -22,7 +22,7 @@ const print=()=>{
         <option value="http://">http</option>
       </select>
       <label>IP Address</label>
-      <input className="form-input col-lg-4 col-md-8 col-sm-8 form-control" value={ip} onChange={(e)=>{setIp(e.target.value)}} />
+      <input className="form-input col-lg-4 col-md-8 col-sm-8 form-control" placeholder="192.212.23.121" value={ip} onChange={(e)=>{setIp(e.target.value)}} />
       <button className="form-btn col-lg-2 col-md-1 col-sm-1" onClick={print}>add</button>
     </div>
   </div>
